@@ -2,7 +2,7 @@ Eu am facut un forum unde lumea poate sa-si spuna povestile
 
 ## Pentru a pornit proiectul
 
-Intrati in terminat si bagati comanda:
+Intrati in terminal si bagati comanda:
 
 npm start
 
