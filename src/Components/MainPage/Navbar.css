@@ -1,0 +1,87 @@
+/* Navbar Container Styles */
+
+.navbar__container {
+  background-color: rgb(71 85 105);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 4rem;
+  box-shadow: 0 1.6rem 3.2rem 0 rgba(0, 0, 0, 0.35);
+}
+
+/* Navbar Logo Styles */
+
+.navbar__container-logo {
+  font-size: 4.4rem;
+  color: #1c7ed6;
+  font-weight: bold;
+}
+
+/* Links Container Styles */
+
+.links__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+/* Profile Button Styles */
+
+.profile__button {
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+  gap: 1rem;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  font-weight: bold;
+  border: 0.2rem solid #fff;
+  outline: none;
+  color: #fff;
+  background-color: #1c7ed6;
+  letter-spacing: 0.2rem;
+  box-shadow: 0 1.5rem 3rem 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: all 0.5s;
+  border-radius: 10rem;
+}
+
+.profile__button:hover {
+  background-color: #60a5e2;
+  box-shadow: 0 1.6rem 3.2rem 0 rgba(0, 0, 0, 0.35);
+}
+
+.profile__button-icon {
+  font-size: 2.2rem;
+}
+
+/* Log Out Button Styles */
+
+.logout__button {
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+  gap: 1rem;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  font-weight: bold;
+  border: 0.2rem solid #fff;
+  outline: none;
+  color: #fff;
+  background-color: #1c7ed6;
+  letter-spacing: 0.2rem;
+  box-shadow: 0 1.5rem 3rem 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: all 0.5s;
+  border-radius: 10rem;
+}
+
+.logout__button:hover {
+  background-color: #60a5e2;
+  box-shadow: 0 1.6rem 3.2rem 0 rgba(0, 0, 0, 0.35);
+}
+
+.logout__button-icon {
+  font-size: 2.2rem;
+}

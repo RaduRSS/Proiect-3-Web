@@ -1,0 +1,55 @@
+/* Main Post Container Styles */
+
+.post__container {
+  display: flex;
+  flex-direction: column;
+   align-items: flex-start;
+  justify-content: center;
+  margin: 0 20rem;
+  background-color: rgb(71 85 105);
+  padding: 4rem;
+  margin-bottom: 8rem;
+  box-shadow: 0 1rem 2rem 0 rgba(0, 0, 0, 0.35);
+}
+
+/* Post Content Container Styles */
+
+.post__content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+/* Post Content Styles */
+
+.post__title {
+  font-size: 2.6rem;
+  color: #1c7ed6;
+  font-weight: bold;
+  margin-bottom: 2.4rem;
+}
+
+.post__description {
+  font-size: 1.8rem;
+  color: #fff;
+  line-height: 1.5;
+  margin-bottom: 6rem;
+}
+
+/* Post Button Styles */
+
+.post__button {
+  border: 0.2rem solid #fff;
+  outline: none;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #1c7ed6;
+  padding: 0.4rem 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  box-shadow: 0 1.5rem 3rem 0 rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: all 0.5s;
+  border-radius: 10rem;
+}

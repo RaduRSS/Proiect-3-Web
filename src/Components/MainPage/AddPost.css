@@ -1,0 +1,24 @@
+.addpost__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem 0 6rem 0;
+}
+
+.addpost__button {
+  font-size: 2.4rem;
+  outline: none;
+  border: 0.2rem solid #fff;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 10rem;
+  padding: 0.2rem 3.2rem;
+  cursor: pointer;
+  box-shadow: 0 1.5rem 3rem 0 rgba(0, 0, 0, 0.2);
+  transition: all 0.5s;
+}
+
+.addpost__button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 1.6rem 3.2rem 0 rgba(0, 0, 0, 0.35);
+}

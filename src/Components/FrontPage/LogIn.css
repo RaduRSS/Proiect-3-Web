@@ -1,0 +1,100 @@
+/* Main Page Styles */
+
+.container {
+  background: linear-gradient(
+    to right bottom,
+    rgba(156, 163, 175, 0.35),
+    rgba(55, 65, 81, 1)
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Titles Styles */
+
+.container__header {
+  font-size: 4.4rem;
+  color: #1c7ed6;
+  margin-top: 12rem;
+}
+
+.container__subheader {
+  font-size: 2.6rem;
+  color: #fff;
+  margin: 1.4rem 0 8rem 0;
+}
+
+/* Inputs Container Styles */
+
+.container__content {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(71 85 105);
+  padding: 8rem;
+  box-shadow: 0 1.5rem 3rem 0 rgba(0, 0, 0, 0.3);
+}
+
+/* Labels and Inputs Styles */
+
+.container__content-label {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 1.2rem;
+}
+
+.container__content-input {
+  border: none;
+  outline: none;
+  width: 24rem;
+  height: 2.4rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #1c7ed6;
+}
+
+.container__content-input::placeholder {
+  color: #000;
+  font-weight: bold;
+}
+
+/* Register Now Styles */
+
+.container__content-register {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.container__content-register a {
+  color: #1c7ed6;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.container__content-register a:hover {
+  color: #60a5e2;
+  text-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+}
+
+/* Confirm Button Styles */
+
+.container__content-button {
+  border: 0.2rem solid #fff;
+  outline: none;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #1c7ed6;
+  padding: 1rem 0;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  box-shadow: 0 1.5rem 3rem 0 rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: all 0.5s;
+  border-radius: 10rem;
+}
+
+.container__content-button:hover {
+  background-color: #60a5e2;
+  box-shadow: 0 1.6rem 3.2rem 0 rgba(0, 0, 0, 0.45);
+}

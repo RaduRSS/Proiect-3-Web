@@ -1,0 +1,118 @@
+/* Modal Styles */
+
+body.active-modal {
+  overflow-y: hidden;
+}
+
+.modal,
+.modal__overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.modal__overlay {
+  background: rgba(49, 49, 49, 0.6);
+}
+.modal__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background-color: rgb(71 85 105);
+  padding: 4rem;
+  border-radius: 0;
+  max-width: 100rem;
+  min-width: 50rem;
+  box-shadow: 0 1.6rem 3.2rem 0 rgba(0, 0, 0, 0.35);
+}
+
+/* Modal Title Styles */
+
+.modal__title-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal__title {
+  font-size: 2.4rem;
+  color: #1c7ed6;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.modal__input {
+  width: 25rem;
+  border: none;
+  outline: none;
+  margin-bottom: 4rem;
+}
+
+/* Modal Content Styles */
+
+.modal__content-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal__content-title {
+  font-size: 2.4rem;
+  color: #1c7ed6;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.modal__content-input {
+  width: 35rem;
+  border: none;
+  outline: none;
+  margin-bottom: 6rem;
+}
+
+/* Modal Buttons Styles */
+
+.modal__button-add {
+  border: 0.2rem solid #fff;
+  outline: none;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #1c7ed6;
+  padding: 0.4rem 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  box-shadow: 0 1.5rem 3rem 0 rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: all 0.5s;
+  border-radius: 10rem;
+}
+
+.modal__button-add:hover {
+  background-color: #60a5e2;
+  box-shadow: 0 1.6rem 3.2rem 0 rgba(0, 0, 0, 0.45);
+}
+
+.modal__button-delete {
+  border: 0.2rem solid #fff;
+  outline: none;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #1c7ed6;
+  padding: 0.4rem 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  box-shadow: 0 1.5rem 3rem 0 rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: all 0.5s;
+  border-radius: 10rem;
+  margin-left: 2rem;
+}
+
+.modal__button-delete:hover {
+  background-color: #60a5e2;
+  box-shadow: 0 1.6rem 3.2rem 0 rgba(0, 0, 0, 0.45);
+}
