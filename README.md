@@ -10,6 +10,7 @@ Pentru a porni API-ul :
 
 Trebuie instalate urmatoarele packageuri : flask, flask_sqlalchemy, flask_bcrypt, flask_jwt_extended, flask_cors.
 cd backend_flask
+
 python app.py
 
 ##Am folosit React  pentru frontend si React-Router-Dom pentru link-urile din url si Python - Flask pentru backend si SQLite pentru database;
