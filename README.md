@@ -8,6 +8,7 @@ npm start
 
 Pentru a porni API-ul :
 
+Trebuie instalate urmatoarele packageuri : flask, flask_sqlalchemy, flask_bcrypt, flask_jwt_extended, flask_cors.
 cd backend_flask
 python app.py
 
