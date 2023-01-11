@@ -1,4 +1,4 @@
-Eu am facut un forum unde lumea poate sa-si spuna povestile 
+Noi am facut un forum unde lumea poate sa-si spuna povestile 
 
 ## Pentru a pornit proiectul
 
